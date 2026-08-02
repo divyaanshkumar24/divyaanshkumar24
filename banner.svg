@@ -1,0 +1,69 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Divyaansh Kumar Gupta: systems that show their work — pipelines, agent orchestration, verification">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#141c2e"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+
+  <g font-family="Menlo, Consolas, monospace">
+    <text x="40" y="66" font-size="30" font-weight="700" fill="#f1f5f9">Divyaansh Kumar Gupta</text>
+    <text x="40" y="94" font-size="15" fill="#8fa2b8">Systems that show their work.</text>
+  </g>
+
+  <!-- pipeline motif: stages chained to a verification node, echoing the
+       stagechain / regfiling-agent / Conductor project banners -->
+  <g stroke="#3fc6c0" stroke-width="2.5" fill="none" opacity="0.85">
+    <line x1="95"  y1="190" x2="177" y2="190"/>
+    <line x1="217" y1="190" x2="299" y2="190"/>
+    <line x1="339" y1="190" x2="421" y2="190"/>
+    <line x1="461" y1="190" x2="543" y2="190"/>
+  </g>
+
+  <g font-family="Menlo, Consolas, monospace" fill="#cbd5e1" text-anchor="middle">
+    <circle cx="75" cy="190" r="20" fill="#0f2333" stroke="#38bdf8" stroke-width="2"/>
+    <text x="75" y="196" font-size="13" fill="#38bdf8">in</text>
+    <text x="75" y="238" font-size="12.5" fill="#8fa2b8">retrieve</text>
+
+    <circle cx="238" cy="190" r="20" fill="#0f2333" stroke="#a78bfa" stroke-width="2"/>
+    <path d="M 228 190 L 236 190 M 236 190 L 248 181 M 236 190 L 248 199"
+          fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="248" cy="181" r="1.8" fill="#a78bfa"/>
+    <circle cx="248" cy="199" r="1.8" fill="#a78bfa"/>
+    <text x="238" y="238" font-size="12.5" fill="#8fa2b8">route</text>
+
+    <circle cx="380" cy="190" r="20" fill="#0f2333" stroke="#5eead4" stroke-width="2"/>
+    <text x="380" y="196" font-size="17" font-weight="700" fill="#5eead4">&#8221;</text>
+    <text x="380" y="238" font-size="12.5" fill="#8fa2b8">execute</text>
+
+    <path d="M 543 168 L 563 175 L 563 192 C 563 203 554 210 543 214 C 532 210 523 203 523 192 L 523 175 Z"
+          fill="#0f2333" stroke="#34d399" stroke-width="2"/>
+    <path d="M 533 190 L 540 197 L 552 182" fill="none" stroke="#34d399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="543" y="238" font-size="12.5" fill="#8fa2b8">verify</text>
+
+    <rect x="600" y="164" width="240" height="52" rx="10" fill="#0f2333" stroke="#34d399" stroke-width="2"/>
+    <circle cx="626" cy="190" r="9" fill="none" stroke="#34d399" stroke-width="2.5"/>
+    <path d="M 622 190 L 625 193 L 631 186" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="648" y="184" font-size="12.5" fill="#e2e8f0" text-anchor="start">Checkable output</text>
+    <text x="648" y="201" font-size="11.5" fill="#8fa2b8" text-anchor="start">trace + citation, not a black box</text>
+  </g>
+
+  <g font-family="Menlo, Consolas, monospace" font-size="12.5" fill="#64748b">
+    <text x="40" y="270">agent orchestration</text>
+    <text x="205" y="270">&#183;</text>
+    <text x="225" y="270">financial systems</text>
+    <text x="385" y="270">&#183;</text>
+    <text x="405" y="270">applied AI pipelines</text>
+    <text x="600" y="270">&#183;</text>
+    <text x="620" y="270">observability &amp; verification</text>
+  </g>
+</svg>
