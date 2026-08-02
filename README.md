@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="banner.svg" alt="Divyaansh Kumar Gupta — systems that show their work" width="100%">
-</p>
+<h1 align="center">Divyaansh Kumar Gupta</h1>
+<p align="center"><i>Systems that show their work.</i></p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/divyaanshkumargupta/"><img src="https://img.shields.io/badge/LinkedIn-divyaanshkumargupta-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
