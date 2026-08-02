@@ -7,6 +7,12 @@
   <a href="https://divyaanshkumargupta.me"><img src="https://img.shields.io/badge/Portfolio-divyaanshkumargupta.me-4f9dff?logo=googlechrome&logoColor=white" alt="Portfolio"></a>
 </p>
 
+<p align="center">
+  <img src="pixel_avatar.svg" alt="My avatar, Floyd-Steinberg dithered to black & white and revealed pixel by pixel in a looping animation" width="280">
+  <br>
+  <sub><i>Dithered locally, not through a hosted generator — <a href="scripts/make_pixel_avatar.py">the script</a> is ~80 lines and reproducible on any avatar.</i></sub>
+</p>
+
 I build systems that make their own decisions checkable — pipelines with a trace, agents with an
 independent verifier, orchestration engines that show every step instead of hiding it behind one
 black-box call. That discipline shows up across everything below: a generic agent-orchestration
