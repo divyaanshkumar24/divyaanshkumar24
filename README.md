@@ -1,5 +1,6 @@
-<h1 align="center">Divyaansh Kumar Gupta</h1>
-<p align="center"><i>Systems that show their work.</i></p>
+<p align="center">
+  <img src="banner.svg" alt="Divyaansh Kumar Gupta — Systems that show their work, rendered as a constellation: retrieve, route, execute, verify" width="100%">
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/divyaanshkumargupta/"><img src="https://img.shields.io/badge/LinkedIn-divyaanshkumargupta-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -71,6 +72,12 @@ Also shipped: **[Cipher Studio](https://github.com/divyaanshkumar24/Cipher-Studi
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=divyaanshkumar24&theme=dark&hide_border=true&background=0D1117&stroke=24303C&ring=4F9DFF&fire=34D399&currStreakLabel=E6EDF3" alt="GitHub streak stats" width="48%">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/divyaanshkumar24/divyaanshkumar24/output-3d-contrib/profile-3d-contrib.svg" alt="3D isometric chart of my real GitHub contributions, generated from live data" width="100%">
+  <br>
+  <sub><i>Real contribution data, rendered by a scheduled GitHub Action (<code>.github/workflows/profile-3d-contrib.yml</code>) — <a href="https://github.com/yoshi389111/github-profile-3d-contrib">yoshi389111/github-profile-3d-contrib</a>.</i></sub>
 </p>
 
 <p align="center">
