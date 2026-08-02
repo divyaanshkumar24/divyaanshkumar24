@@ -8,12 +8,6 @@
   <a href="https://divyaanshkumargupta.me"><img src="https://img.shields.io/badge/Portfolio-divyaanshkumargupta.me-4f9dff?logo=googlechrome&logoColor=white" alt="Portfolio"></a>
 </p>
 
-<p align="center">
-  <img src="pixel_avatar.svg" alt="My avatar, Floyd-Steinberg dithered to black & white and revealed pixel by pixel in a looping animation" width="280">
-  <br>
-  <sub><i>Dithered locally, not through a hosted generator — <a href="scripts/make_pixel_avatar.py">the script</a> is ~80 lines and reproducible on any avatar.</i></sub>
-</p>
-
 I build systems that make their own decisions checkable — pipelines with a trace, agents with an
 independent verifier, orchestration engines that show every step instead of hiding it behind one
 black-box call. That discipline shows up across everything below: a generic agent-orchestration
@@ -72,12 +66,6 @@ Also shipped: **[Cipher Studio](https://github.com/divyaanshkumar24/Cipher-Studi
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=divyaanshkumar24&theme=dark&hide_border=true&background=0D1117&stroke=24303C&ring=4F9DFF&fire=34D399&currStreakLabel=E6EDF3" alt="GitHub streak stats" width="48%">
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/divyaanshkumar24/divyaanshkumar24/output-3d-contrib/profile-3d-contrib.svg" alt="3D isometric chart of my real GitHub contributions, generated from live data" width="100%">
-  <br>
-  <sub><i>Real contribution data, rendered by a scheduled GitHub Action (<code>.github/workflows/profile-3d-contrib.yml</code>) — <a href="https://github.com/yoshi389111/github-profile-3d-contrib">yoshi389111/github-profile-3d-contrib</a>.</i></sub>
 </p>
 
 <p align="center">
