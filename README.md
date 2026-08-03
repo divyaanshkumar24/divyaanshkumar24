@@ -8,9 +8,30 @@
   <a href="https://divyaanshkumargupta.me"><img src="https://img.shields.io/badge/Portfolio-divyaanshkumargupta.me-4f9dff?logo=googlechrome&logoColor=white" alt="Portfolio"></a>
 </p>
 
+### 🔝 Featured Projects
+
+**Agent orchestration & pipelines**
+
+| Project | What it does |
+|---|---|
+| **[Regulatory Filing Intelligence Agent](https://github.com/divyaanshkumar24/Regulatory-Filing-Intelligence-Agent)** | A 3-agent RAG pipeline over real SEC filings: retrieval → grounded answer → an *independent* Claude call that checks whether the answer is actually supported by its cited source text, and flags it if not. |
+| **[stagechain](https://github.com/divyaanshkumar24/stagechain)** | A generic engine for chaining and routing tasks between AI agents or plain callables — triage/routing, retries with backoff, and a structured execution trace. Zero required dependencies in the core engine. |
+| **[Clearline](https://github.com/divyaanshkumar24/clearline-backend)** | A call-analysis pipeline: transcribe a recording (faster-whisper), identify speakers (pyannote.audio diarization), and generate insights from the conversation — three inspectable stages, not one opaque call. |
+| **[Conductor](https://github.com/divyaanshkumar24/Dc-conductor)** | A distributed job scheduler — jobs get decomposed and bin-packed across a fleet of Docker worker nodes with a Best-Fit-Decreasing algorithm, with execution streamed back live over WebSockets. |
+
+**Financial systems & applied AI**
+
+| Project | What it does |
+|---|---|
+| **[SEC Filing Risk-Factor Diff Tracker](https://github.com/divyaanshkumar24/SEC-Filing-Risk-Factor-Diff-Tracker)** | Paragraph-level diff of a company's 10-K "Risk Factors" section across consecutive filings — additions and removals called out explicitly, never color alone. 35 companies, 174 filings, 346 precomputed diffs from real SEC EDGAR data. |
+| **[Public Company Red-Flag Screener](https://github.com/divyaanshkumar24/Public-Company-Red-Flag-Screener)** | Screens ~82 public companies' SEC EDGAR filings against 5 deterministic, methodology-cited earnings-quality red flags (Beneish M-Score components, Sloan accruals anomaly, auditor/related-party disclosure rules), with an optional BYOK LLM explanation layer. |
+| **[TradedataPipeline](https://github.com/divyaanshkumar24/TradedataPipeline)** | A synthetic securities lending/repo trade pipeline — FastAPI REST API, analytics layer, SQLAlchemy (SQLite/Postgres), Docker, CI. All data is synthetic; built to demonstrate the systems design, not real trading. |
+
+---
+
 I build systems that make their own decisions checkable — pipelines with a trace, agents with an
 independent verifier, orchestration engines that show every step instead of hiding it behind one
-black-box call. That discipline shows up across everything below: a generic agent-orchestration
+black-box call. That discipline shows up across everything above: a generic agent-orchestration
 engine, a RAG pipeline that measures its own hallucination rate, a distributed job scheduler you
 can watch execute live, and a couple of financial-systems and applied-AI projects that apply the
 same idea to messier, real-world data.
@@ -25,23 +46,7 @@ same idea to messier, real-world data.
 
 ---
 
-### Agent orchestration & pipelines
-
-| Project | What it does |
-|---|---|
-| **[stagechain](https://github.com/divyaanshkumar24/stagechain)** | A generic engine for chaining and routing tasks between AI agents or plain callables — triage/routing, retries with backoff, and a structured execution trace. Zero required dependencies in the core engine. |
-| **[Regulatory Filing Intelligence Agent](https://github.com/divyaanshkumar24/Regulatory-Filing-Intelligence-Agent)** | A 3-agent RAG pipeline over real SEC filings: retrieval → grounded answer → an *independent* Claude call that checks whether the answer is actually supported by its cited source text, and flags it if not. |
-| **[Conductor](https://github.com/divyaanshkumar24/Dc-conductor)** | A distributed job scheduler — jobs get decomposed and bin-packed across a fleet of Docker worker nodes with a Best-Fit-Decreasing algorithm, with execution streamed back live over WebSockets. |
-| **[Clearline](https://github.com/divyaanshkumar24/clearline-backend)** | A call-analysis pipeline: transcribe a recording (faster-whisper), identify speakers (pyannote.audio diarization), and generate insights from the conversation — three inspectable stages, not one opaque call. |
-
-### Financial systems & applied AI
-
-| Project | What it does |
-|---|---|
-| **[TradedataPipeline](https://github.com/divyaanshkumar24/TradedataPipeline)** | A synthetic securities lending/repo trade pipeline — FastAPI REST API, analytics layer, SQLAlchemy (SQLite/Postgres), Docker, CI. All data is synthetic; built to demonstrate the systems design, not real trading. |
-| **[Social Pal](https://github.com/divyaanshkumar24/social-autopilot)** | An AI-driven relationship-intelligence dashboard — analyzes messaging patterns, scores relationship health, detects anomalies, and generates actionable recommendations. |
-
-Also shipped: **[Cipher Studio](https://github.com/divyaanshkumar24/Cipher-Studio)** (visual tool for understanding encryption/decryption ciphers) and **[attendease](https://github.com/divyaanshkumar24/attendease)** (Next.js 14 + Supabase attendance calculator).
+Also shipped: **[Social Pal](https://github.com/divyaanshkumar24/social-autopilot)** (AI-driven relationship-intelligence dashboard), **[Cipher Studio](https://github.com/divyaanshkumar24/Cipher-Studio)** (visual tool for understanding encryption/decryption ciphers), and **[attendease](https://github.com/divyaanshkumar24/attendease)** (Next.js 14 + Supabase attendance calculator).
 
 ---
 
