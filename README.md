@@ -16,7 +16,7 @@
 |---|---|
 | **[Regulatory Filing Intelligence Agent](https://github.com/divyaanshkumar24/Regulatory-Filing-Intelligence-Agent)** | A 3-agent RAG pipeline over real SEC filings: retrieval → grounded answer → an *independent* Claude call that checks whether the answer is actually supported by its cited source text, and flags it if not. |
 | **[stagechain](https://github.com/divyaanshkumar24/stagechain)** | A generic engine for chaining and routing tasks between AI agents or plain callables — triage/routing, retries with backoff, and a structured execution trace. Zero required dependencies in the core engine. |
-| **[Clearline](https://github.com/divyaanshkumar24/clearline-backend)** | A call-analysis pipeline: transcribe a recording (faster-whisper), identify speakers (pyannote.audio diarization), and generate insights from the conversation — three inspectable stages, not one opaque call. |
+| **[Clearline](https://github.com/divyaanshkumar24/Clearline)** | AI-assisted call compliance auditing and coaching — a Next.js frontend and FastAPI backend (transcription, pyannote.audio diarization, LLM recommendations) combined into one pipeline that lands on a compliance/coaching report, not one opaque call. |
 | **[Conductor](https://github.com/divyaanshkumar24/Dc-conductor)** | A distributed job scheduler — jobs get decomposed and bin-packed across a fleet of Docker worker nodes with a Best-Fit-Decreasing algorithm, with execution streamed back live over WebSockets. |
 
 **Financial systems & applied AI**
