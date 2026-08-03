@@ -23,6 +23,7 @@
 
 | Project | What it does |
 |---|---|
+| **[AI Boom Lens](https://github.com/divyaanshkumar24/ai-boom-lens)** | A local-first dashboard tracking the AI boom — funding, public-company revenue, sector employment, hardware pricing — against a macro backdrop, using only real public data (FRED, BLS, SEC EDGAR). Python pipeline exports static JSON; a Next.js dashboard reads it directly with no live backend or API calls at runtime. |
 | **[SEC Filing Risk-Factor Diff Tracker](https://github.com/divyaanshkumar24/SEC-Filing-Risk-Factor-Diff-Tracker)** | Paragraph-level diff of a company's 10-K "Risk Factors" section across consecutive filings — additions and removals called out explicitly, never color alone. 35 companies, 174 filings, 346 precomputed diffs from real SEC EDGAR data. |
 | **[Public Company Red-Flag Screener](https://github.com/divyaanshkumar24/Public-Company-Red-Flag-Screener)** | Screens ~82 public companies' SEC EDGAR filings against 5 deterministic, methodology-cited earnings-quality red flags (Beneish M-Score components, Sloan accruals anomaly, auditor/related-party disclosure rules), with an optional BYOK LLM explanation layer. |
 | **[TradedataPipeline](https://github.com/divyaanshkumar24/TradedataPipeline)** | A synthetic securities lending/repo trade pipeline — FastAPI REST API, analytics layer, SQLAlchemy (SQLite/Postgres), Docker, CI. All data is synthetic; built to demonstrate the systems design, not real trading. |
